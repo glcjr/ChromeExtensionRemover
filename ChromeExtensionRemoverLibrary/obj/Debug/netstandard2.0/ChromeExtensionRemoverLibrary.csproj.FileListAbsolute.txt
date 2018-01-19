@@ -1,0 +1,8 @@
+C:\Users\Downstairs Computer\source\repos\RogueGoogleExtensionRemover\ChromeExtensionRemoverLibrary\obj\Debug\netstandard2.0\ChromeExtensionRemoverLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Downstairs Computer\source\repos\RogueGoogleExtensionRemover\ChromeExtensionRemoverLibrary\obj\Debug\netstandard2.0\ChromeExtensionRemoverLibrary.AssemblyInfoInputs.cache
+C:\Users\Downstairs Computer\source\repos\RogueGoogleExtensionRemover\ChromeExtensionRemoverLibrary\obj\Debug\netstandard2.0\ChromeExtensionRemoverLibrary.AssemblyInfo.cs
+C:\Users\Downstairs Computer\source\repos\RogueGoogleExtensionRemover\ChromeExtensionRemoverLibrary\bin\Debug\netstandard2.0\ChromeExtensionRemoverLibrary.deps.json
+C:\Users\Downstairs Computer\source\repos\RogueGoogleExtensionRemover\ChromeExtensionRemoverLibrary\bin\Debug\netstandard2.0\ChromeExtensionRemoverLibrary.dll
+C:\Users\Downstairs Computer\source\repos\RogueGoogleExtensionRemover\ChromeExtensionRemoverLibrary\bin\Debug\netstandard2.0\ChromeExtensionRemoverLibrary.pdb
+C:\Users\Downstairs Computer\source\repos\RogueGoogleExtensionRemover\ChromeExtensionRemoverLibrary\obj\Debug\netstandard2.0\ChromeExtensionRemoverLibrary.dll
+C:\Users\Downstairs Computer\source\repos\RogueGoogleExtensionRemover\ChromeExtensionRemoverLibrary\obj\Debug\netstandard2.0\ChromeExtensionRemoverLibrary.pdb

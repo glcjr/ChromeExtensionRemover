@@ -1,0 +1,17 @@
+C:\Users\Downstairs Computer\source\repos\RogueGoogleExtensionRemover\RogueGoogleExtensionRemover\bin\Release\RogueGoogleExtensionRemover.exe.config
+C:\Users\Downstairs Computer\source\repos\RogueGoogleExtensionRemover\RogueGoogleExtensionRemover\bin\Release\RogueGoogleExtensionRemover.exe
+C:\Users\Downstairs Computer\source\repos\RogueGoogleExtensionRemover\RogueGoogleExtensionRemover\bin\Release\RogueGoogleExtensionRemover.pdb
+C:\Users\Downstairs Computer\source\repos\RogueGoogleExtensionRemover\RogueGoogleExtensionRemover\bin\Release\Newtonsoft.Json.dll
+C:\Users\Downstairs Computer\source\repos\RogueGoogleExtensionRemover\RogueGoogleExtensionRemover\bin\Release\Newtonsoft.Json.xml
+C:\Users\Downstairs Computer\source\repos\RogueGoogleExtensionRemover\RogueGoogleExtensionRemover\obj\Release\MainWindow.g.cs
+C:\Users\Downstairs Computer\source\repos\RogueGoogleExtensionRemover\RogueGoogleExtensionRemover\obj\Release\App.g.cs
+C:\Users\Downstairs Computer\source\repos\RogueGoogleExtensionRemover\RogueGoogleExtensionRemover\obj\Release\RogueGoogleExtensionRemover_MarkupCompile.cache
+C:\Users\Downstairs Computer\source\repos\RogueGoogleExtensionRemover\RogueGoogleExtensionRemover\obj\Release\RogueGoogleExtensionRemover_MarkupCompile.lref
+C:\Users\Downstairs Computer\source\repos\RogueGoogleExtensionRemover\RogueGoogleExtensionRemover\obj\Release\MainWindow.baml
+C:\Users\Downstairs Computer\source\repos\RogueGoogleExtensionRemover\RogueGoogleExtensionRemover\obj\Release\RogueGoogleExtensionRemover.g.resources
+C:\Users\Downstairs Computer\source\repos\RogueGoogleExtensionRemover\RogueGoogleExtensionRemover\obj\Release\RogueGoogleExtensionRemover.Properties.Resources.resources
+C:\Users\Downstairs Computer\source\repos\RogueGoogleExtensionRemover\RogueGoogleExtensionRemover\obj\Release\RogueGoogleExtensionRemover.csproj.GenerateResource.Cache
+C:\Users\Downstairs Computer\source\repos\RogueGoogleExtensionRemover\RogueGoogleExtensionRemover\obj\Release\RogueGoogleExtensionRemover.csproj.CoreCompileInputs.cache
+C:\Users\Downstairs Computer\source\repos\RogueGoogleExtensionRemover\RogueGoogleExtensionRemover\obj\Release\RogueGoogleExtensionRemover.exe
+C:\Users\Downstairs Computer\source\repos\RogueGoogleExtensionRemover\RogueGoogleExtensionRemover\obj\Release\RogueGoogleExtensionRemover.pdb
+C:\Users\Downstairs Computer\source\repos\RogueGoogleExtensionRemover\RogueGoogleExtensionRemover\obj\Release\RogueGoogleExtensionRemover.csprojResolveAssemblyReference.cache
