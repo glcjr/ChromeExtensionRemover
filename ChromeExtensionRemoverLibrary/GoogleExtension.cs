@@ -39,7 +39,7 @@ Any modifications to this code must retain this message.
 *************************************************************************************************************************************/
 namespace ChromeExtensionRemoverLibrary
 {
-    public class GoogleExtension
+    public class GoogleExtension : IComparable<GoogleExtension>
     {
         private string Name = "";
         private string Version = "";
@@ -93,9 +93,35 @@ namespace ChromeExtensionRemoverLibrary
             Thread.Sleep(1); 
             Directory.Delete(target_dir);
         }
+        public string GetExtensionPath()
+        {
+            return ExtensionPath;
+        }
         public override string ToString()
         {
             return $"{Name} {Version} ";
+        }
+        public int CompareTo(GoogleExtension other)
+        {
+            if (Name != other.getName())
+                return Name.CompareTo(other.getName());
+            else if (Version != other.getVersion())
+                return Version.CompareTo(other.getVersion());
+            else
+                return 0;
+        }
+        public string getName()
+
+        {
+
+            return Name;
+        }
+
+        public string getVersion()
+
+        {
+
+            return Version;
         }
     }
 }

@@ -2,6 +2,7 @@
 using System.Windows;
 using ChromeExtensionRemoverLibrary;
 
+
 /*********************************************************************************************************************************
 Copyright and Licensing Message
 
@@ -45,7 +46,7 @@ namespace RogueGoogleExtensionRemover
     /// </summary>
     public partial class MainWindow : Window
     {
-        ExtensionRemover extensions = new ExtensionRemover();
+        ExtensionFinder extensions = new ExtensionFinder();
         public MainWindow()
         {
             InitializeComponent();
@@ -57,26 +58,59 @@ namespace RogueGoogleExtensionRemover
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             GoogleExtension file = (GoogleExtension)ExtensionList.SelectedItem;
-            if (file.Remove())
-            {
-                MessageBox.Show("Extension Deleted");
-                AddExtensions();
-            }
+            if (file.Remove())            
+                MessageBox.Show("Extension Deleted");                
             else
                 MessageBox.Show($"A problem occurred with the deletion: {file.ErrorMessage}");
-
+            assigndirectoryaddextensions();
         }
         private void AddExtensions()
         {
-            ExtensionList.Items.Clear();
-            List<GoogleExtension> list = extensions.GetExtensions();
-            foreach (var e in list)
-                ExtensionList.Items.Add(e);
+            try
+            {
+                ExtensionList.Items.Clear();
+                List<GoogleExtension> list = extensions.GetExtensions();
+                list.Sort();
+                foreach (var e in list)
+                    ExtensionList.Items.Add(e);                
+            }
+            catch
+            {
+                try
+                {
+                    assigndirectoryaddextensions();
+                }
+                catch
+                {
+                    MessageBox.Show("An error occurred when loading the extensions.");
+                }
+            }
         }
-        private void btnrefresh_Click(object sender, RoutedEventArgs e)
+        private void assigndirectoryaddextensions()
         {
             extensions.extensionsdir = txtdirectory.Text;
             AddExtensions();
+        }
+        private void btnrefresh_Click(object sender, RoutedEventArgs e)
+        {
+            assigndirectoryaddextensions();
+        }
+
+        private void btnchngdirectory_Click(object sender, RoutedEventArgs e)
+        {
+            System.Windows.Forms.FolderBrowserDialog browserdialog = new System.Windows.Forms.FolderBrowserDialog();
+            browserdialog.SelectedPath = txtdirectory.Text;
+            if (browserdialog.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+            {
+                txtdirectory.Text = browserdialog.SelectedPath;
+                assigndirectoryaddextensions();
+            }
+        }
+
+        private void ExtensionList_SelectionChanged(object sender, System.Windows.Controls.SelectionChangedEventArgs e)
+        {
+            GoogleExtension file = (GoogleExtension)ExtensionList.SelectedItem;
+            txtselectedpath.Text = file.GetExtensionPath().Replace(txtdirectory.Text,"").Replace(@"\","");
         }
     }
 }

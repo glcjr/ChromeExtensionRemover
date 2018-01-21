@@ -5,13 +5,17 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:RogueGoogleExtensionRemover"
         mc:Ignorable="d"
-        Title="Chrome Extension Remover" Height="373.729" Width="525">
+        Title="Chrome Extension Remover" Height="383.864" Width="525">
     <Grid>
         <Label Content="Select the Extension to Remove" />
-        <TextBox Name="txtdirectory" Margin="52,33,121,279"/>
-        <Button Name="btnrefresh" Content="Refresh List" Width="75" Margin="415,35,27,279" Click="btnrefresh_Click"/>
-        <ListBox Name="ExtensionList"  HorizontalAlignment="Left" Height="209" Margin="49,78,0,0" VerticalAlignment="Top" Width="347"/>
-        <Button Content="Remove" HorizontalAlignment="Left" Margin="416,163,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
-        <Label Content="Copyright 2018 Gary Cole" Margin="44,288,103,3" />
+        <TextBox Name="txtdirectory" Margin="52,33,121,293"/>
+        <Button Name="btnrefresh" Content="Refresh List" Margin="415,80,10,239" Click="btnrefresh_Click" Width="91"/>
+        <Button Name="btnchngdirectory" Content="Change" Margin="415,34,10,290" Click="btnchngdirectory_Click" Width="91" />
+        <ListBox Name="ExtensionList"  HorizontalAlignment="Left" Height="179" Margin="49,78,0,0" VerticalAlignment="Top" Width="347" SelectionChanged="ExtensionList_SelectionChanged"/>
+        <Button Content="Remove" HorizontalAlignment="Left" Margin="415,153,10,0" VerticalAlignment="Top" Width="91" Click="Button_Click" Height="30"/>
+        <Label Content="Extension Folder" Margin="26,264,378,57" />
+        <TextBox Name="txtselectedpath" Margin="142,264,121,57"/>
+
+        <Label Content="Copyright 2018 Gary Cole" Margin="44,301,103,15" />
     </Grid>
 </Window>

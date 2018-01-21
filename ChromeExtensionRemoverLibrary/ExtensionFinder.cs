@@ -40,13 +40,13 @@ Any modifications to this code must retain this message.
 *************************************************************************************************************************************/
 namespace ChromeExtensionRemoverLibrary
 {
-    public class ExtensionRemover
+    public class ExtensionFinder
     {
         public string localappdir = "";
         public string extensionsdir = "";
         private GoogleExtension temp = new GoogleExtension();
         bool found = false;
-        public ExtensionRemover()
+        public ExtensionFinder()
         {
             localappdir = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
             extensionsdir = $@"{localappdir}\Google\Chrome\User Data\Default\Extensions";
@@ -73,11 +73,55 @@ namespace ChromeExtensionRemoverLibrary
                 if (f.Contains("manifest.json"))
                 {                  
                     Item item = JsonConvert.DeserializeObject<Item>(File.ReadAllText(f));
-                    temp = new GoogleExtension(item.Name, originaldirectory, item.Version, item.ManifestVersion);
+                    if (item.Name == "__MSG_appName__")
+                        item.Name = GetRealName(f, item.Name, "app");
+                    else if (item.Name == "__MSG_APP_NAME__")
+                        item.Name = GetRealName(f, item.Name, "app2");
+                    else if (item.Name == "__MSG_extName__")
+                        item.Name = GetRealName(f, item.Name, "ext");
+                        temp = new GoogleExtension(item.Name, originaldirectory, item.Version, item.ManifestVersion);                    
                     return true;
                 }                
             }
             return false;
+        }
+        private string checklocalesfile(string manifest, string type)
+        {
+            if (type.Equals("app"))
+            {
+                Item2 item = JsonConvert.DeserializeObject<Item2>(File.ReadAllText(manifest));
+                return item.appName.message;
+            }
+            else if (type.Equals("app2"))
+            {
+                Item4 item = JsonConvert.DeserializeObject<Item4>(File.ReadAllText(manifest));
+                return item.app_name.message;
+            }
+            else
+            {
+                Item3 item = JsonConvert.DeserializeObject<Item3>(File.ReadAllText(manifest));
+                return item.extName.message;
+            }
+        }
+        private string GetRealName(string manifest, string oldnm, string type)
+        {
+            manifest = manifest.Replace("manifest.json", @"_locales\en_US\messages.json");
+            try
+            {
+                return checklocalesfile(manifest, type);
+            }
+            catch 
+            {
+                try
+                {
+                    manifest=manifest.Replace("en_US", "en");
+                    return checklocalesfile(manifest, type);
+                }
+                catch
+                {
+                    return oldnm;
+                }
+            }           
         }
         private void SearchDirectories(string[] directory, string originaldirectory)
         {
@@ -106,4 +150,5 @@ namespace ChromeExtensionRemoverLibrary
             return temp;
         }
     }
+   
 }

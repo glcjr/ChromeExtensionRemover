@@ -42,4 +42,24 @@ namespace ChromeExtensionRemoverLibrary
         public string Name;
         public string Version;
     }
+    public class Item2
+    {
+
+        public insides appName;
+        //   public insides appDesc;
+    }
+    public class Item4
+    {
+        public insides app_name;
+    }
+    public class Item3
+    {
+        public insides extName;
+        //    public insides extDesc;
+    }
+    public class insides
+    {
+        //   public string description;
+        public string message;
+    }
 }

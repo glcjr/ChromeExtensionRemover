@@ -3,3 +3,6 @@
 ################################################################################
 
 /.vs/RogueGoogleExtensionRemover/v15/Server/sqlite3
+/.vs
+/ChromeExtensionRemoverLibrary/bin/Release/netstandard2.0
+/RogueGoogleExtensionRemover/bin/Release
