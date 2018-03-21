@@ -6,4 +6,3 @@ C:\Users\Downstairs Computer\source\repos\RogueGoogleExtensionRemover\ChromeExte
 C:\Users\Downstairs Computer\source\repos\RogueGoogleExtensionRemover\ChromeExtensionRemoverLibrary\obj\Release\netstandard2.0\ChromeExtensionRemoverLibrary.AssemblyInfo.cs
 C:\Users\Downstairs Computer\source\repos\RogueGoogleExtensionRemover\ChromeExtensionRemoverLibrary\obj\Release\netstandard2.0\ChromeExtensionRemoverLibrary.dll
 C:\Users\Downstairs Computer\source\repos\RogueGoogleExtensionRemover\ChromeExtensionRemoverLibrary\obj\Release\netstandard2.0\ChromeExtensionRemoverLibrary.pdb
-C:\Users\Downstairs Computer\source\repos\RogueGoogleExtensionRemover\ChromeExtensionRemoverLibrary\obj\Release\netstandard2.0\ChromeExtensionRemoverLibrary.csprojResolveAssemblyReference.cache

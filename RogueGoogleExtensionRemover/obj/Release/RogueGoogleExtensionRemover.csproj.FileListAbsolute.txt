@@ -14,4 +14,4 @@ C:\Users\Downstairs Computer\source\repos\RogueGoogleExtensionRemover\RogueGoogl
 C:\Users\Downstairs Computer\source\repos\RogueGoogleExtensionRemover\RogueGoogleExtensionRemover\obj\Release\RogueGoogleExtensionRemover.csproj.CoreCompileInputs.cache
 C:\Users\Downstairs Computer\source\repos\RogueGoogleExtensionRemover\RogueGoogleExtensionRemover\obj\Release\RogueGoogleExtensionRemover.exe
 C:\Users\Downstairs Computer\source\repos\RogueGoogleExtensionRemover\RogueGoogleExtensionRemover\obj\Release\RogueGoogleExtensionRemover.pdb
-C:\Users\Downstairs Computer\source\repos\RogueGoogleExtensionRemover\RogueGoogleExtensionRemover\obj\Release\RogueGoogleExtensionRemover.csprojResolveAssemblyReference.cache
+C:\Users\Downstairs Computer\source\repos\RogueGoogleExtensionRemover\RogueGoogleExtensionRemover\obj\Release\RogueGoogleExtensionRemover.csproj.CopyComplete

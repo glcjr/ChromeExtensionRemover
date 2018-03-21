@@ -6,16 +6,43 @@
         xmlns:local="clr-namespace:RogueGoogleExtensionRemover"
         mc:Ignorable="d"
         Title="Chrome Extension Remover" Height="383.864" Width="525">
-    <Grid>
-        <Label Content="Select the Extension to Remove" />
-        <TextBox Name="txtdirectory" Margin="52,33,121,293"/>
-        <Button Name="btnrefresh" Content="Refresh List" Margin="415,80,10,239" Click="btnrefresh_Click" Width="91"/>
-        <Button Name="btnchngdirectory" Content="Change" Margin="415,34,10,290" Click="btnchngdirectory_Click" Width="91" />
-        <ListBox Name="ExtensionList"  HorizontalAlignment="Left" Height="179" Margin="49,78,0,0" VerticalAlignment="Top" Width="347" SelectionChanged="ExtensionList_SelectionChanged"/>
-        <Button Content="Remove" HorizontalAlignment="Left" Margin="415,153,10,0" VerticalAlignment="Top" Width="91" Click="Button_Click" Height="30"/>
-        <Label Content="Extension Folder" Margin="26,264,378,57" />
-        <TextBox Name="txtselectedpath" Margin="142,264,121,57"/>
-
-        <Label Content="Copyright 2018 Gary Cole" Margin="44,301,103,15" />
-    </Grid>
+           <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="20*"/>
+                <ColumnDefinition Width="80*"/>
+                <ColumnDefinition Width="10*"/>
+                <ColumnDefinition Width="30*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Content="Select the Extension to Remove" />
+            <TextBox Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" Name="txtdirectory"/>
+            <Button Grid.Row="3" Grid.Column="3" Name="btnrefresh" Content="Refresh List" Click="btnrefresh_Click" Width="91"/>
+            <Button Grid.Row="1" Grid.Column="3" Name="btnchngdirectory" Content="Change" Click="btnchngdirectory_Click" Width="91" />
+            <ListBox Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="2" Grid.RowSpan="6" Name="ExtensionList"  HorizontalAlignment="Left" Height="160" VerticalAlignment="Top" Width="320" SelectionChanged="ExtensionList_SelectionChanged"/>
+            <Button Grid.Row="5" Grid.Column="3" Content="Remove" VerticalAlignment="Top" Width="91" Click="Button_Click" Height="30"/>
+            <Grid Grid.Row="9" Grid.Column="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="25*"/>
+                    <ColumnDefinition Width="50*"/>
+                </Grid.ColumnDefinitions>
+                <Label Grid.Column="0" Content="Extension Folder" />
+                <TextBox Grid.Column="1" Name="txtselectedpath" />
+            </Grid>
+            <Label Grid.Row="11" Grid.Column="1" Grid.ColumnSpan="2" Content="Copyright 2018 Gary Cole" />
+            <Button Grid.Row="11" Grid.Column="3" Name="btnDonate" Content="Donate" Width="90" Click="btnDonate_Click"/>
+        </Grid>
+    
 </Window>

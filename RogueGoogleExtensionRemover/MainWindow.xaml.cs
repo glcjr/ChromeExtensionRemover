@@ -112,5 +112,10 @@ namespace RogueGoogleExtensionRemover
             GoogleExtension file = (GoogleExtension)ExtensionList.SelectedItem;
             txtselectedpath.Text = file.GetExtensionPath().Replace(txtdirectory.Text,"").Replace(@"\","");
         }
+
+        private void btnDonate_Click(object sender, RoutedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("http://paypal.me/GColeJr");
+        }
     }
 }
