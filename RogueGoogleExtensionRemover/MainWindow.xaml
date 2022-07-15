@@ -41,7 +41,7 @@
                 <Label Grid.Column="0" Content="Extension Folder" />
                 <TextBox Grid.Column="1" Name="txtselectedpath" />
             </Grid>
-            <Label Grid.Row="11" Grid.Column="1" Grid.ColumnSpan="2" Content="Copyright 2018 Gary Cole" />
+            <Label Grid.Row="11" Grid.Column="1" Grid.ColumnSpan="2" Content="Copyright 2022 Gary Cole" />
             <Button Grid.Row="11" Grid.Column="3" Name="btnDonate" Content="Donate" Width="90" Click="btnDonate_Click"/>
         </Grid>
     

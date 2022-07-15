@@ -6,3 +6,13 @@ C:\Users\Downstairs Computer\source\repos\RogueGoogleExtensionRemover\ChromeExte
 C:\Users\Downstairs Computer\source\repos\RogueGoogleExtensionRemover\ChromeExtensionRemoverLibrary\bin\Debug\netstandard2.0\ChromeExtensionRemoverLibrary.pdb
 C:\Users\Downstairs Computer\source\repos\RogueGoogleExtensionRemover\ChromeExtensionRemoverLibrary\obj\Debug\netstandard2.0\ChromeExtensionRemoverLibrary.dll
 C:\Users\Downstairs Computer\source\repos\RogueGoogleExtensionRemover\ChromeExtensionRemoverLibrary\obj\Debug\netstandard2.0\ChromeExtensionRemoverLibrary.pdb
+C:\Users\gary_\source\repos\glcjr\ChromeExtensionRemover\ChromeExtensionRemoverLibrary\bin\Debug\netstandard2.0\ChromeExtensionRemoverLibrary.deps.json
+C:\Users\gary_\source\repos\glcjr\ChromeExtensionRemover\ChromeExtensionRemoverLibrary\bin\Debug\netstandard2.0\ChromeExtensionRemoverLibrary.dll
+C:\Users\gary_\source\repos\glcjr\ChromeExtensionRemover\ChromeExtensionRemoverLibrary\bin\Debug\netstandard2.0\ChromeExtensionRemoverLibrary.pdb
+C:\Users\gary_\source\repos\glcjr\ChromeExtensionRemover\ChromeExtensionRemoverLibrary\obj\Debug\netstandard2.0\ChromeExtensionRemoverLibrary.csproj.AssemblyReference.cache
+C:\Users\gary_\source\repos\glcjr\ChromeExtensionRemover\ChromeExtensionRemoverLibrary\obj\Debug\netstandard2.0\ChromeExtensionRemoverLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gary_\source\repos\glcjr\ChromeExtensionRemover\ChromeExtensionRemoverLibrary\obj\Debug\netstandard2.0\ChromeExtensionRemoverLibrary.AssemblyInfoInputs.cache
+C:\Users\gary_\source\repos\glcjr\ChromeExtensionRemover\ChromeExtensionRemoverLibrary\obj\Debug\netstandard2.0\ChromeExtensionRemoverLibrary.AssemblyInfo.cs
+C:\Users\gary_\source\repos\glcjr\ChromeExtensionRemover\ChromeExtensionRemoverLibrary\obj\Debug\netstandard2.0\ChromeExtensionRemoverLibrary.csproj.CoreCompileInputs.cache
+C:\Users\gary_\source\repos\glcjr\ChromeExtensionRemover\ChromeExtensionRemoverLibrary\obj\Debug\netstandard2.0\ChromeExtensionRemoverLibrary.dll
+C:\Users\gary_\source\repos\glcjr\ChromeExtensionRemover\ChromeExtensionRemoverLibrary\obj\Debug\netstandard2.0\ChromeExtensionRemoverLibrary.pdb

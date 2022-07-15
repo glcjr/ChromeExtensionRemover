@@ -6,3 +6,14 @@
 /.vs
 /ChromeExtensionRemoverLibrary/bin/Release/netstandard2.0
 /RogueGoogleExtensionRemover/bin/Release
+/ChromeExtensionRemoverLibrary/obj/Debug/netstandard2.0
+/ChromeExtensionRemoverLibrary/obj/Release/netstandard2.0
+*.json
+/ChromeExtensionRemoverLibrary/obj/project.nuget.cache
+/RogueGoogleExtensionRemover/obj/Debug/.NETFramework,Version=v4.6.1.AssemblyAttributes.cs
+/RogueGoogleExtensionRemover/obj/Debug/RogueGoogleExtensionRemover.csproj.AssemblyReference.cache
+/RogueGoogleExtensionRemover/obj/Release/.NETFramework,Version=v4.6.1.AssemblyAttributes.cs
+/RogueGoogleExtensionRemover/obj/Release/RogueGoogleExtensionRemover.csproj.AssemblyReference.cache
+/ChromeExtensionRemoverLibrary/bin/Debug/netstandard2.0
+/RogueGoogleExtensionRemover/bin/Debug
+/RogueGoogleExtensionRemover/obj/Debug/TempPE

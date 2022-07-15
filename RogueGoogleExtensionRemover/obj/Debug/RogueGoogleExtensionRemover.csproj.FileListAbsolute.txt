@@ -114,3 +114,22 @@ C:\Users\Downstairs Computer\source\repos\RogueGoogleExtensionRemover\RogueGoogl
 C:\Users\Downstairs Computer\source\repos\RogueGoogleExtensionRemover\RogueGoogleExtensionRemover\obj\Debug\RogueGoogleExtensionRemover.csproj.CoreCompileInputs.cache
 C:\Users\Downstairs Computer\source\repos\RogueGoogleExtensionRemover\RogueGoogleExtensionRemover\obj\Debug\RogueGoogleExtensionRemover.exe
 C:\Users\Downstairs Computer\source\repos\RogueGoogleExtensionRemover\RogueGoogleExtensionRemover\obj\Debug\RogueGoogleExtensionRemover.pdb
+C:\Users\gary_\source\repos\glcjr\ChromeExtensionRemover\RogueGoogleExtensionRemover\bin\Debug\RogueGoogleExtensionRemover.exe.config
+C:\Users\gary_\source\repos\glcjr\ChromeExtensionRemover\RogueGoogleExtensionRemover\bin\Debug\RogueGoogleExtensionRemover.exe
+C:\Users\gary_\source\repos\glcjr\ChromeExtensionRemover\RogueGoogleExtensionRemover\bin\Debug\RogueGoogleExtensionRemover.pdb
+C:\Users\gary_\source\repos\glcjr\ChromeExtensionRemover\RogueGoogleExtensionRemover\bin\Debug\Newtonsoft.Json.dll
+C:\Users\gary_\source\repos\glcjr\ChromeExtensionRemover\RogueGoogleExtensionRemover\bin\Debug\Newtonsoft.Json.xml
+C:\Users\gary_\source\repos\glcjr\ChromeExtensionRemover\RogueGoogleExtensionRemover\obj\Debug\RogueGoogleExtensionRemover.csproj.AssemblyReference.cache
+C:\Users\gary_\source\repos\glcjr\ChromeExtensionRemover\RogueGoogleExtensionRemover\obj\Debug\RogueGoogleExtensionRemover.csproj.SuggestedBindingRedirects.cache
+C:\Users\gary_\source\repos\glcjr\ChromeExtensionRemover\RogueGoogleExtensionRemover\obj\Debug\MainWindow.g.cs
+C:\Users\gary_\source\repos\glcjr\ChromeExtensionRemover\RogueGoogleExtensionRemover\obj\Debug\App.g.cs
+C:\Users\gary_\source\repos\glcjr\ChromeExtensionRemover\RogueGoogleExtensionRemover\obj\Debug\RogueGoogleExtensionRemover_MarkupCompile.cache
+C:\Users\gary_\source\repos\glcjr\ChromeExtensionRemover\RogueGoogleExtensionRemover\obj\Debug\RogueGoogleExtensionRemover_MarkupCompile.lref
+C:\Users\gary_\source\repos\glcjr\ChromeExtensionRemover\RogueGoogleExtensionRemover\obj\Debug\MainWindow.baml
+C:\Users\gary_\source\repos\glcjr\ChromeExtensionRemover\RogueGoogleExtensionRemover\obj\Debug\RogueGoogleExtensionRemover.g.resources
+C:\Users\gary_\source\repos\glcjr\ChromeExtensionRemover\RogueGoogleExtensionRemover\obj\Debug\RogueGoogleExtensionRemover.Properties.Resources.resources
+C:\Users\gary_\source\repos\glcjr\ChromeExtensionRemover\RogueGoogleExtensionRemover\obj\Debug\RogueGoogleExtensionRemover.csproj.GenerateResource.cache
+C:\Users\gary_\source\repos\glcjr\ChromeExtensionRemover\RogueGoogleExtensionRemover\obj\Debug\RogueGoogleExtensionRemover.csproj.CoreCompileInputs.cache
+C:\Users\gary_\source\repos\glcjr\ChromeExtensionRemover\RogueGoogleExtensionRemover\obj\Debug\RogueGoogleExtensionRemover.csproj.CopyComplete
+C:\Users\gary_\source\repos\glcjr\ChromeExtensionRemover\RogueGoogleExtensionRemover\obj\Debug\RogueGoogleExtensionRemover.exe
+C:\Users\gary_\source\repos\glcjr\ChromeExtensionRemover\RogueGoogleExtensionRemover\obj\Debug\RogueGoogleExtensionRemover.pdb

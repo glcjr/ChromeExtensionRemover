@@ -47,6 +47,7 @@ namespace RogueGoogleExtensionRemover
     public partial class MainWindow : Window
     {
         ExtensionFinder extensions = new ExtensionFinder();
+        bool extdirectoryset = false;
         public MainWindow()
         {
             InitializeComponent();
@@ -62,6 +63,7 @@ namespace RogueGoogleExtensionRemover
                 MessageBox.Show("Extension Deleted");                
             else
                 MessageBox.Show($"A problem occurred with the deletion: {file.ErrorMessage}");
+            extdirectoryset = false;
             assigndirectoryaddextensions();
         }
         private void AddExtensions()
@@ -76,9 +78,20 @@ namespace RogueGoogleExtensionRemover
             }
             catch
             {
+                
                 try
                 {
-                    assigndirectoryaddextensions();
+                    if (!(extdirectoryset))
+                    {
+                        extdirectoryset = true;
+                        assigndirectoryaddextensions();
+
+                    }
+                    else
+                    {
+                        MessageBox.Show("Unable to find Chrome extensions.");
+                        extdirectoryset = false;
+                    }
                 }
                 catch
                 {
@@ -89,6 +102,7 @@ namespace RogueGoogleExtensionRemover
         private void assigndirectoryaddextensions()
         {
             extensions.extensionsdir = txtdirectory.Text;
+            
             AddExtensions();
         }
         private void btnrefresh_Click(object sender, RoutedEventArgs e)
